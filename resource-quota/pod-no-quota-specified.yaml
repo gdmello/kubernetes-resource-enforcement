@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: quota-mem-cpu-demo-no-quota
+spec:
+  containers:
+  - name: quota-mem-cpu-demo-ctr-no-quota
+    image: nginx
